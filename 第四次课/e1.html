@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .top{
+        width: 300px;
+        height: 400px;
+        background-color:red;
+    }
+</style>
+<body>
+    <div class="top">
+      <p id="ii">
+
+      </p>
+      <h1 id="uu">
+
+      </h1>
+     
+    </div>
+  <script>
+     
+      function sum(){
+            for(var  i=9;i<199;i++){
+          document.write("haha");
+      }
+      }
+      sum();
+      document.getElementById("uu").innerHTML="你好呀";
+      document.getElementById("ii").innerHTML=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quia similique aliquid perspiciatis? Earum molestiae corrupti a totam culpa adipisci incidunt excepturi nobis rem aut reprehenderit, voluptatem fugit similique iste! "
+    
+  </script>
+  <script>
+      //定义对象
+      var person={firstname:"小明",sex:"男",age:"20",hobby:"打篮球"};
+      //使用对象里的元素
+      document.write(person.firstname);
+      document.write(person.hobby+"<br>");
+      document.write(person["hobby"]+"<br>");
+      document.write(person["age"]+"<br>");
+      var i;
+      var cars=new Array();
+      cars[0]="color";
+      cars[1]="weight";
+      cars[2]="high";
+      document.write("数组元素为：");
+    for(i=0;i<cars.length;i++){
+        document.write(cars[i]+"<br>");
+    }
+
+ </script>
+</body>
+</html>
