@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>js事件</h1>
+    <button onclick="displaydate()">按钮</button>
+    <p id="h"></p>
+    <p id="i"></p>
+    <p id="j"></p>
+    <script>
+        function sum(a, b) {
+            return a * b;
+        }
+        document.write(sum(6, 8) + "<br>");
+        function add(a, b) {
+            return a + b;
+        }
+        document.write(add(67, 89));
+        //访问没有 () 的函数将返回函数定义：
+        document.getElementById("i").innerHTML = sum;
+        document.getElementById("j").innerHTML = sum(12, 341);
+        function displaydate() {
+            document.getElementById("h").innerHTML = "现在的时间是：" + Date();
+        }
+    </script>
+</body>
+
+</html>
