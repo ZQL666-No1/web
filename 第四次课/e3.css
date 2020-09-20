@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    background-color:black ;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.content{
+    background-color: rgb(180, 29, 29);
+    width: 100%;
+    height: 400px;
+
+}
+img{
+   width: 100%;
+    height: 400px;
+
+}
+.c1{
+    background-color: #fff;
+    width: 10%;
+    height: 400px;
+    float: left;
+}
+.c2{
+    background-color: rgb(20, 13, 13);
+    width: 90%;
+    height: 400px;
+    float: left;
+}
+.foot{
+  background-color: rgb(8, 223, 72);
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  color: aliceblue;
+}
+li{
+    margin-top: 30px;
+    display: block;
+    background-color:yellow;
+    margin-bottom: 30px;
+}
