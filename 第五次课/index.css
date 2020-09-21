@@ -1,0 +1,12 @@
+#ff{
+    color: brown;
+    font-size: 2em;
+
+}
+.d{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(238, 176, 176);
+    text-align: center;
+    padding-top: 40px;
+}
