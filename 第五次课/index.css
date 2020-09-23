@@ -29,4 +29,9 @@ a:hover{
 }
 a:link {
     color: darkturquoise;
+    
+}
+form{
+    background-color: rgb(184, 108, 108);
+    background-image: url(0989.png);
 }
